@@ -99,7 +99,7 @@ This project is a **Retrieval-Augmented Generation (RAG)** chatbot that answers 
 ## 🧠 Key Design Notes
 
 - Uses Groq-hosted LLaMA 3 for real-time responses
-- No local LLM is used (ideal for low-resource machines)
+- For Local LLM Need to Uncomment get_llm function from prediction.py file
 - Memory management allows context-aware conversation
 - Reset functionality lets users start fresh chats easily
 
