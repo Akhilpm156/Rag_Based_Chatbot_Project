@@ -1,6 +1,5 @@
 import os
 import gradio as gr
-from dotenv import load_dotenv
 from rag_project.loader import load_documents_from_folder
 from rag_project.chunker import chunk_and_preprocess_docs
 from rag_project.embedder import embed_and_store_documents
@@ -8,7 +7,10 @@ from rag_project.retriever import load_retriever
 from rag_project.prediction import create_conversational_chain
 from rag_project.prediction import get_llm
 from rag_project.logger import logger
+from dotenv import load_dotenv
 
+# For Groq API
+#######################################
 # Load environment variables
 load_dotenv()
 
@@ -20,8 +22,16 @@ if not api_key:
     logger.error("GROQ_API key not found in .env file.")
     exit()
 
-# Setup the LLM
+# Setup the LLM API
 llm = get_llm(api_key)  # Pass API Key to the function
+########################################
+
+# For Local LLM
+########################################
+
+#llm = get_llm()
+
+########################################
 
 def setup_retriever():
     try:

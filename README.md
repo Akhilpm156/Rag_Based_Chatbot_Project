@@ -90,7 +90,7 @@ This project is a **Retrieval-Augmented Generation (RAG)** chatbot that answers 
    python app.py
    ```
 
-5. **Open Gradio web interface** for windows :127.0.0.1:7860 to start chatting!
+5. **Open Gradio web interface** start chatting!
 
 ---
 

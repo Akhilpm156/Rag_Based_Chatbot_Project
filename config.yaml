@@ -16,5 +16,5 @@ retriever:
   top_k: 2
 
 llm:
-  model: "llama3-8b-8192"
+  model: "llama3-8b-8192" # change if use local LLM model name "meta-llama/Meta-Llama-3-8B-Instruct"
 
