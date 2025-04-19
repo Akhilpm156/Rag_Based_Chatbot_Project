@@ -73,24 +73,26 @@ This project is a **Retrieval-Augmented Generation (RAG)** chatbot that answers 
 
 ## 💻 How to Run
 
-1. **Install requirements**:
+1. **Python version**: 3.10
+
+2. **Install requirements**: 
    ```bash
    pip install -r requirements.txt
    ```
 
-2. **Set up `.env` file**:
+4. **Set up `.env` file**:
    ```
    GROQ_API=your_groq_api_key_here
    ```
 
-3. **Ensure your documents are in the correct folder** (e.g., `./data/`)
+5. **Ensure your documents are in the correct folder** (e.g., `./data/`)
 
-4. **Run the app**:
+6. **Run the app**:
    ```bash
    python app.py
    ```
 
-5. **Open Gradio web interface** for windows :127.0.0.1:7860 to start chatting!
+7. **Open Gradio web interface** for windows :127.0.0.1:7860 to start chatting!
 
 ---
 
