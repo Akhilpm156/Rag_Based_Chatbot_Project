@@ -5,7 +5,7 @@ scipy
 openpyxl 
 langchain
 langchain-community
-# langchain-huggingface # uncomment if load local LLM
+langchain-huggingface
 langchain-chroma
 accelerate
 tiktoken
