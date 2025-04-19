@@ -1,0 +1,20 @@
+
+paths:
+  raw_data: "data"
+
+chunking:
+  chunk_size: 200
+  chunk_overlap: 30
+  encoding: cl100k_base
+
+embedding:
+  model_name: "nomic-ai/nomic-embed-text-v1"
+  file_path: "artifacts/vector_store"
+  
+retriever:
+  search_type: "similarity"
+  top_k: 2
+
+llm:
+  model: "llama3-8b-8192"
+

@@ -1,0 +1,20 @@
+numpy==1.26.4
+torch==2.2.1
+transformers==4.47.0
+scipy
+openpyxl 
+langchain
+langchain-community
+langchain-huggingface 
+langchain-chroma
+accelerate
+tiktoken
+unstructured
+python-docx
+pypdf
+unstructured-inference
+python-dotenv
+einops
+langchain_groq
+gradio
+-e .
