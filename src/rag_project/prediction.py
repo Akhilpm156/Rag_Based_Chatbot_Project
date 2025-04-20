@@ -41,13 +41,13 @@ def get_llm(api_key):
 #
 #        model_id =config['llm']['model']
 #
-#        tokenizer = AutoTokenizer.from_pretrained(model_id) # use_auth_token=HF_TOKEN : use hugging face token for tokenizer model (downloading model)
+#        tokenizer = AutoTokenizer.from_pretrained(model_id, use_auth_token=HF_TOKEN) # use hugging face token for tokenizer model (downloading model)
 #        model = AutoModelForCausalLM.from_pretrained(
 #        model_id,
 #        torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
 #        device_map="auto",
-#        #use_auth_token = HF_TOKEN hugging face token for model (for downloading model)
-#        )
+#        #use_auth_token = HF_TOKEN)     # hugging face token for model (for downloading model)
+#        
 
 #        pipe = pipeline(
 #        "text-generation",
